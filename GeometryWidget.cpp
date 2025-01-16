@@ -41,14 +41,14 @@
 #include <vtkRenderWindowInteractor.h>
 #include <vtkAxesActor.h>
 
-//#include <vtkAppendFilter.h>
-//#include <vtkNew.h>
-//#include <vtkCompositePolyDataMapper.h>
-//#include <vtkIdList.h>
-//#include <vtkIdTypeArray.h>
-//#include <vtkExtractSelection.h>
-//#include <vtkSelectionNode.h>
-//#include <vtkSelection.h>
+#include <vtkAppendFilter.h>
+#include <vtkNew.h>
+#include <vtkCompositePolyDataMapper.h>
+#include <vtkIdList.h>
+#include <vtkIdTypeArray.h>
+#include <vtkExtractSelection.h>
+#include <vtkSelectionNode.h>
+#include <vtkSelection.h>
 
 VTK_MODULE_INIT(vtkRenderingOpenGL2);
 VTK_MODULE_INIT(vtkInteractionStyle);
